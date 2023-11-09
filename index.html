@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <meta property="og:image" content="https://i.postimg.cc/fWm1MjPp/solitaire.png" />
+    <meta property="og:site_name" content="Various Solitaire Game Online." />
+    <meta property="og:type" content="object" />
+    <meta property="og:title" content="Various Solitaire Game Online." />
+    <meta property="og:url" content="https://redhulk.in/solitaire" />
+    <meta property="og:description" content="All Solitaire game is now in web." />
+    <meta name="description" content="Solitaire card game with HTML5.">
+    <meta name="keywords" content="Solitaire HTML5 JavaScript">
+    <meta name="author" content="Sumalya Chatterjee">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <title>Solitaire Game</title>
+    <link rel="shortcut icon" href="logo.png" type="image/x-icon">
+</head>
+
+<body>
+    <header>
+        <h1>Solitaire</h1>
+    </header>
+
+    <div class="difficulty-buttons">
+        <a href="./acesup/index" style="text-decoration: none;"><button class="button easy"><img src="./acesup.png" height="25px" alt="acesup"
+                style="width: 25px; margin-right: 15px;margin-bottom: 3px;">Aces Up</button></a>
+        <a href="./clock/index" style="text-decoration: none;"><button class="button medium"><img src="./clock-patience.png" height="25px" alt="clock-patience"
+                style="width: 25px; margin-right: 8px; margin-bottom: 3px;">Clock Patience</button></a>
+        <a href="./golf/index" style="text-decoration: none;"><button class="button hard"><img src="./card-golf.png" height="25px" alt="card-golf"
+                style="width: 25px; margin-right: 15px; margin-bottom: 3px;">Card Golf</button></a>
+        <a href="./solitaire/index" style="text-decoration: none;"><button class="button impossible"><img src="./solitaire.png" height="25px" alt="solitaire"
+                style="width: 25px; margin-right: 15px; margin-bottom: 3px;">Solitaire</button></a>
+        <a href="./freecell/index" style="text-decoration: none;"><button class="button freecell"><img src="./freecell.png" alt="freecell"
+                style="width: 40px; margin-right: 1px; margin-bottom: 3px;">Freecell</button></a>
+        <a href="./hearts/index" style="text-decoration: none;"><button class="button hearts"><img src="https://i.postimg.cc/LsGH3VdY/hearts.png" alt="hearts"
+                style="width: 40px; margin-right: 1px; margin-bottom: 3px;">Hearts</button></a>
+    </div>
+    <script>
+        // Function to block the right-click context menu
+        function blockContextMenu(event) {
+            event.preventDefault();
+        }
+    
+        // Attach the blockContextMenu function to the contextmenu event
+        window.addEventListener("contextmenu", blockContextMenu);
+    </script>
+</body>
+
+</html>

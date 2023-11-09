@@ -1,0 +1,80 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: green;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Ensure the body takes up the full viewport height */
+    margin: 0;
+}
+
+.difficulty-buttons {
+    display: flex;
+    flex-direction: column; /* Stack buttons vertically */
+    align-items: center; /* Center buttons horizontally */
+}
+
+header {
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+    width: 100%;
+}
+
+header h1 {
+    margin: 0;
+}
+
+.button {
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    margin: 5px;
+    border-radius: 5px;
+    width: 150px; /* Set a fixed width for the buttons */
+    display: flex;
+    align-items: center;
+}
+
+.button:hover {
+    background-color: #2980b9;
+}
+
+.easy {
+    background-color: rgb(3, 167, 151);
+    box-shadow: 2px 2px black;
+    font-size: 16px;
+}
+
+.medium {
+    background-color: #f39c12;
+    box-shadow: 2px 2px black;
+}
+
+.hard {
+    background-color: #e74c3c;
+    box-shadow: 2px 2px black;
+}
+
+.impossible {
+    background-color: #c0392b;
+    box-shadow: 2px 2px black;
+}
+
+.old{
+    background-color: blue;
+    box-shadow: 2px 2px black;
+}
+
+.freecell{
+    background-color: darkseagreen ;
+    box-shadow: 2px 2px black;
+}
+
+.hearts{
+    background-color: red;
+    box-shadow: 2px 2px black;
+}
